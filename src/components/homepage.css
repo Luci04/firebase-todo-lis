@@ -1,0 +1,98 @@
+.homepage {
+  overflow-x: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.add-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-edit-input {
+  outline: none;
+  border: 1px solid #efefef;
+  height: 30px;
+  font-size: 25px;
+  padding: 5px 20px;
+}
+
+.add-confirm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.add-confirm-icon {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 15px;
+  background: rgb(88, 88, 233);
+  border-radius: 50%;
+  color: white;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.todo {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.text-container {
+  text-align: left;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  border-radius: 10px;
+  background-color: rgb(211, 211, 211);
+  width: 400px;
+  height: 50px;
+  padding: 5px 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.icon-right {
+  display: flex;
+}
+
+.edit-button,
+.delete-button {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.logout-icon {
+  z-index: 5;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 20px;
+  background: rgb(88, 88, 233);
+  border-radius: 50%;
+  color: white;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
